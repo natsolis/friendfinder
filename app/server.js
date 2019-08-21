@@ -13,4 +13,10 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // routes 
-require("./routing")
+require("./routing/apiRoutes.js")(app);
+require("./routing/htmlRoutes.js")(app);
+
+// starts the server to begin to listen 
+app.listen(PORT, function(){
+ console.log("App listening on PORT " + PORT);
+});
