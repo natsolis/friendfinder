@@ -1,2 +1,2 @@
 # friendfinder
-vhttps://github.com/natsolis/friendfinder/tree/master/app
+https://github.com/natsolis/friendfinder/tree/master/app
